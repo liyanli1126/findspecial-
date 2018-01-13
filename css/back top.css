@@ -1,0 +1,17 @@
+/*返回顶部*/
+.module-common-feed-back {
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+}
+.module-common-feed-back .feed-back-wrap .back-top{
+	position: fixed;
+	right: 10px;
+	bottom: 50px;
+	width: 44px;
+	height: 44px;
+	background-size: 44px 44px;
+	background: url(../image/icon-top.png) center center no-repeat;
+	cursor: pointer;
+	display: none;
+}

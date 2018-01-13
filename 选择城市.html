@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>选择城市</title>
+    <link rel="stylesheet" href="css/frozen.css">  
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/city.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/back top.css">
+	<style>
+		.layui-layer-setwin .layui-layer-close2{
+		    	right: 0;
+			    top: 0px;
+			    background:url(images/close_new.jpg)no-repeat;
+			    background-size: contain;
+			    width: 12px !important;
+			    height: 12px !important;
+		   }
+	</style>
+</head>
+<body ontouchstart="">
+    <header class="ui-header ui-header-positive ui-border-b">
+    	<i class="ui-icon-return" onclick="history.back()">	
+			</i>
+         <h1>选择城市</h1>      
+    </header>
+<!-- section -->
+	<section class="ui-container order_main">
+		<div class="order_top main-wrapper">
+<!-- 定位 -->
+			<div class="position-wrapper" node-type="position-wrapper">
+		        <div class="box-label">定位城市</div>
+		        <div class="position-box" node-type="position-box">
+		        	<div class="location-failed">
+		        		<p>无法获取您的位置<span class="ui-icon-refresh"></span>
+		        		</p>
+		        	</div>
+		       	</div>
+    		</div>
+<!-- 推荐 -->
+			<div class="recommond-wrapper" style="display: block;">
+	            <div class="box-label">为您推荐城市</div>
+	            <div class="recommond-box">
+	            	<div class="location-recommond">
+	            		<span>北京</span>
+	            	</div>
+	            	<div class="location-recommond">
+	            		<span>北京</span>
+	            	</div>
+	            	<div class="location-recommond">
+	            		<span>北京</span>
+	            	</div>
+	            </div>
+        	</div>
+<!-- 热门城市 -->
+			<div class="hot-wrapper">
+           		<div class="box-label">热门城市</div>
+            	<div class="hot-box">
+                	<div class="recommond-box">
+	            		<div class="location-recommond">
+	            			<span>北京</span>
+	            		</div>
+	            		<div class="location-recommond">
+	            			<span>上海</span>
+	            		</div>
+	            		<div class="location-recommond">
+	            			<span>天津</span>
+	            		</div>
+	           	 	</div>
+	           	 	<div class="recommond-box">
+	            		<div class="location-recommond">
+	            			<span>北京</span>
+	            		</div>
+	            		<div class="location-recommond">
+	            			<span>上海</span>
+	            		</div>
+	            		<div class="location-recommond">
+	            			<span>天津</span>
+	            		</div>
+	           	 	</div>
+	           	 	<div class="recommond-box">
+	            		<div class="location-recommond">
+	            			<span>北京</span>
+	            		</div>
+	            		<div class="location-recommond">
+	            			<span>上海</span>
+	            		</div>
+	            		<div class="location-recommond">
+	            			<span>天津</span>
+	            		</div>
+	           	 	</div>
+            	</div>
+        	</div>
+<!-- 全部城市 -->
+			<div class="all-wrapper">
+        		<div class="box-label">全部城市</div>
+        		<div class="city-list">
+        			<div class="city-list-label">
+                    	<a class="letter-label" href="javascript:;">A</a>
+                    	<ul class="city-letter-list">
+                    		<li>
+                       		<a class="city-item" >安庆</a>
+                       		</li>
+                        	<li>
+                       		<a class="city-item" >鞍山</a>
+                       		</li>
+                       		<li>
+                       		<a class="city-item" >安顺</a>
+                       		</li>
+                       		<li>
+                       		<a class="city-item" >安阳</a>
+                       		</li>
+                       		<li>
+                       		<a class="city-item" >澳门</a>
+                       		</li>
+                       	</ul>
+                    </div>
+                    <div class="city-list-label">
+                        <a class="letter-label" href="javascript:;">A</a>
+                        <ul class="city-letter-list">
+                            <li>
+                            <a class="city-item" >安庆</a>
+                            </li>
+                            <li>
+                            <a class="city-item" >鞍山</a>
+                            </li>
+                            <li>
+                            <a class="city-item" >安顺</a>
+                            </li>
+                            <li>
+                            <a class="city-item" >安阳</a>
+                            </li>
+                            <li>
+                            <a class="city-item" >澳门</a>
+                            </li>
+                        </ul>
+                    </div>
+      			</div>
+        	</div>
+		</div>
+<!-- 侧栏 -->
+		<div class="fixed-nav">
+        	<ul>
+            	<li>
+                	<a class="fixed-item" href="#letter_A">A</a>
+                </li>
+            	<li>
+                	<a class="fixed-item" href="#letter_A">B</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">C</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">D</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">E</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">F</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">G</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">H</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">J</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">K</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">L</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">M</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">N</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">P</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">Q</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">R</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">S</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">T</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">W</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">X</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">Y</a>
+                </li>
+                <li>
+                	<a class="fixed-item" href="#letter_A">Z</a>
+                </li>
+        	</ul>
+    	</div>
+<!-- 返回顶部 -->
+		<div class="module-common-feed-back">
+			<div class="feed-back-wrap">
+    			<div class="back-top" style="/* display: none; */"></div>
+			</div>
+		</div>
+
+	</section>
+    <script src="js/jquery-3.2.0.js"></script>
+	<script src="js/js1.js"></script>
+    <script>
+		$(function(){
+			var order_listInfoW = $(".order_listInfo").width();
+			var dtW = $(".order_listInfo dt").width();
+			var ddW = (order_listInfoW-dtW-21);
+			console.log(order_listInfoW)
+			$(".order_listInfo dd").css({"width":ddW});
+		})
+    </script>
+    
+</body>
+</html>

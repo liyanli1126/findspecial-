@@ -1,0 +1,119 @@
+body{
+	background-color: #fff;
+}
+.ui-header .ui-header-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 16px;
+    color: #666;
+    padding: 0 10px;
+}
+/*section*/
+
+.ui-form {
+	height: 185px;
+}
+.ui-form .ui-form-item {
+	border-bottom: 1px solid #eee;
+}
+.ui-form-item .ui-img{
+	height: 44px;
+    width: 105px;
+    padding: 4px 0;
+	position: absolute;
+    top: 0;
+    right: 6px;
+}
+/**/
+.main{
+	padding: 0 25px
+}
+/**/
+.sms-login-ctn .help {
+    color: #999;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.sms-login-ctn .help .help-l {
+    color: #999;
+    display: block;
+    line-height: 14px;
+} 
+.sms-login-ctn .help .help-l {
+    color: #999;
+    display: block;
+    line-height: 14px;
+    font-size: 14px;
+    text-decoration: none;
+}
+/*合作账号*/
+.ui-other-login {
+    margin-top: 25px;
+}
+.ui-other-login .login-label {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+}
+.ui-other-login .login-label {
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+}
+.ui-other-login .login-icon-wrap {
+    display: none;
+}
+.login-icon-wrap .login-icon {
+    margin-left: 30px;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+.icon1 {
+    margin-left: 30px;
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+.footer {
+    font-size: 0;
+    color: #fff;
+}
+.footer .screen{
+    padding: 0 10px;
+    text-align: center;
+}
+.footer .screen a img{
+    background-size: 50% 50%;
+    margin-top: 11px;
+}
+.footer .download{
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+}
+.footer .download span{
+    padding: 10px 20px;
+    line-height: 25px;
+    background: #f12b15;
+    font-size: 14px;
+}
+.footer .download .dow{
+    background: #000;  
+    position: relative;
+}
+.footer .download .dow i{
+    position: absolute;
+    left: 5px;
+    top: 0;
+    color: #fff;
+    transform: rotate(180deg);
+}
+.footer .dow em{
+    color: #fff;
+    padding-left: 15px;
+}

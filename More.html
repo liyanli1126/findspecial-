@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>List</title>
+	<link rel="stylesheet" href="css/frozen.css">
+	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/detail.css">
+	<link rel="stylesheet" href="css/Beauty.css">
+	<link rel="stylesheet" href="css/More.css">
+    <link rel="stylesheet" href="css/back top.css">
+	<style>
+		.layui-layer-setwin .layui-layer-close2{
+		    	right: 0;
+			    top: 0px;
+			    background:url(images/close_new.jpg)no-repeat;
+			    background-size: contain;
+			    width: 12px !important;
+			    height: 12px !important;
+		   }
+	</style>
+</head>
+<body>
+<!-- header -->
+	<header class="ui-header ui-header-positive ui-border-b">
+    	
+         <div class="ui-header-top">
+			<i class="ui-icon-return" onclick="history.back()"><span class="back">BACK</span></i>
+			</i>
+           <div class="logo logo1">
+				<a href="#" >
+					<img src="image/logo_yellow.png"/>
+                </a> 
+            </div>
+            
+            <a class="fr index_center" href="#">
+                <div id="open-sb" class="menu-button menu-left"></div>
+            </a>
+        </div>             
+        <div class="ui-header-bottom">
+            <a href="选择城市.html" class="header_city">
+                <span>Brisbane</span>
+                <i class="ui-icon-unfold top_city"> 
+                </i>    
+            </a>
+            <a href="Search.html" class="header-search index_search">
+					<span class="ui-icon-search fl"></span>
+					<input type="search" placeholder="Search" />
+				</a>
+            
+        </div>     		                
+    </header>
+	<div class="menu_dialog">
+		<div class="menu_listLy">
+			
+			<ul>
+				<li class="current menu_add">
+        			<a>
+						Beauty<span class=""><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Salon<i class="ui-icon">+</i></a>
+							<ul class="menu_addT">
+								<li>
+									<a href="#">Special</a>
+								</li>
+								<li>
+									<a href="#">New</a>
+								</li>
+								<li>
+									<a href="#">Popular</a>
+								</li>
+								<li>
+									<a href="#">Premium</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Cosmetics<i class="ui-icon">+</i></a>
+							<ul class="menu_addT">
+								<li>
+									<a href="#">Special</a>
+								</li>
+								<li>
+									<a href="#">New</a>
+								</li>
+								<li>
+									<a href="#">Popular</a>
+								</li>
+								<li>
+									<a href="#">Premium</a>
+								</li>
+							</ul>
+						</li>
+					</ul>					
+        		</li>
+	            <li class="current">
+        			
+					<a>
+						Car<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Car Sale</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Maintenance </a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Parts </a>
+						</li>
+					</ul>		
+        		</li>
+        		<li class="current">
+					<a>
+						Community<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Business</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Election</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Government</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Organisation</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Religion</a>
+						</li>
+					</ul>	
+        		</li>
+        		<li class="current">
+        			
+					<a>
+						Daily Shop<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Butcher</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Major Stores</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Fruit & Veg</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Centres</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Supermarket</a>
+						</li>
+					</ul>	
+        		</li>
+		   
+        		<li class="current">
+					<a>
+						Eat & Drink<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Bar</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Bottle Shop</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Food</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Restaurant</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Winery</a>
+						</li>
+					</ul>	
+        		</li>
+	            <li class="current">
+					<a>
+						Education<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">College</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Childcare</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">School</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Training</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">University</a>
+						</li>
+					</ul>	
+        		</li>
+        		<li class="current">
+        			
+					<a>
+						Recreation<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Arts</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Movie</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Play</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Theatre</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Sports</a>
+						</li>
+					</ul>	
+        		</li>
+        		<li class="current">
+					<a>
+						Events<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Community</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Festival </a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Market  </a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Religion </a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Expo</a>
+						</li>
+					</ul>	
+        		</li>
+				<li class="current">
+					<a>
+						Fashion<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Children </a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Men </a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Women</a>
+						</li>
+						
+					</ul>
+        		</li>
+				<li class="current">
+					<a>
+						Finance<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Accounting & Invest</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Insurance</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Loan</a>
+						</li>
+						
+					</ul>
+        		</li>
+				<li class="current">
+					<a>
+						Health<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Dental</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Fitness</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Massage</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Pharmacy</a>
+						</li>
+					</ul>
+        		</li>
+				<li class="current">
+        			<a>
+        				Home<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Decoration</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Flooring</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Furniture</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Garden</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Lighting</a>
+						</li>
+					</ul>
+        		</li>
+				<li class="current">
+        			<a>
+        				New Tech<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Electronics & Digital</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Internet & Mobile</a>
+						</li>
+						
+					</ul>
+        		</li>
+				<li class="current">
+        			<a>
+        				Property<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Hot Sale</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Luxury Sale</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">New Sale</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Open Home</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Top Agents</a>
+						</li>
+					</ul>
+        		</li>
+				<li class="current">
+        			<a>
+        				Style Shop<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Accessory</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Bag</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Jewel</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Luxury</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Shoes</a>
+						</li>
+					</ul>
+        		</li>
+				<li class="current">
+        			<a>
+        				Travel<span><i class="ui-icon-next"></i></span>
+        			</a>
+					<ul class="menu_second">
+						<li>
+							<a href="#" class="menu_addS">Car Rental</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Cruise</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Flight</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Holiday</a>
+						</li>
+						<li>
+							<a href="#" class="menu_addS">Hotel</a>
+						</li>
+					</ul>
+        		</li>
+			</ul>
+		</div>	
+	</div>
+	<div class="left_App">
+		<p class="app_hide"><a href="javascript:">APP Download</a><i class="ui-icon-prev"></i></p>
+	</div>
+
+<!-- section -->
+    <section class="ui-container index_cont">
+<!-- nav -->
+		<nav class="order_top ly_menu send_menuLy" style="margin-top:5px;">
+			<p style="height:30px;line-height:30px;width:95%;margin:0 auto;font-size:14px;">当前位置：Beauty > Salon > <span style="color:red;font-weight:bold;">List</span></p></p></p>
+          
+        </nav>
+		<div class="beauty_sen special_titlebg">List</div>
+<!-- 		<div class="beauty_sen">Special</div -->
+        
+<!-- banner -->
+    	<div class="content_banner">
+    		<div class="swiper-container">
+    			<ul class="swiper-wrapper">
+    				<li class="swiper-slide">
+    					<a href="#">
+    						<img src="image/banner.jpg"/>
+    					</a>
+    				</li>
+    				<li class="swiper-slide">
+    					<a href="#">
+    						<img src="image/banner.jpg"/>
+    					</a>
+    				</li class="swiper-slide">
+    				<li class="swiper-slide">
+    					<a href="#">
+    						<img src="image/banner.jpg"/>
+    					</a>
+    				</li>
+    			</ul>
+				<div class="swiper-pagination"></div>
+    		</div>
+    		
+    	</div>
+<!-- 大新闻 -->
+		
+		<div class="bigNews">
+			<div class="ui-tab">
+				<ul class="ui-tab-content">
+					<li>
+						
+						<div class="new-info">
+							<a href="detail.html">
+								<img src="image/1496455661bnQf7S_thumb.jpg">
+							</a>
+						
+						</div>
+						<div class="new-title-wrap">
+							<h3 class="new-title">
+								<a href="#">大新闻</a>
+							</h3>
+							<a href="#" class="new-content">Ukraine’s Fairmont Grand Hotel Kyiv open</a>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	
+<!-- add -->
+		<div class="ad_wrap">
+			<a href="#">
+				<img src="image/1495811772IM45tz.jpg" alt="">
+			</a>
+            <span>
+                广告   
+            </span>
+		</div>	
+
+<!-- Popular -->
+			<div class="beauty_specail">
+				
+				<div class="ui-tab">
+					<ul class="ui-tab-content list_ly">
+						<li>
+							<div class="new_img fl">
+								<a class="clearfix" href="detail.html">
+									<img src="image/new_img.jpg">
+								</a>
+							</div>
+							<div class="title-wrap fr">
+								<h3 class="new-title">
+									<a href="detail.html">Bond Girl of the Sea</a>
+								</h3>
+								<div class="new-info-wrap clearfix">
+									<a href="detail.html" class="new-content fl">The new 163-foot Casino Royale, unveiled in July, pushed the Christensen shipyard to its limits. “The boat’s owners have thirty-plus years of experience buildin</a>
+							</div>
+							
+							</div>
+							<div class="more_wrap fr">
+								<a href="#" class="">☎call</a>
+								<a href="#" class="">more</a>
+							</div>
+						</li>
+						<li>
+							<div class="new_img fl">
+								<a class="clearfix" href="detail.html">
+									<img src="image/new_img.jpg">
+								</a>
+							</div>
+							<div class="title-wrap fr">
+								<h3 class="new-title">
+									<a href="detail.html">Bond Girl of the Sea</a>
+								</h3>
+								<div class="new-info-wrap clearfix">
+									<a href="detail.html" class="new-content fl">The new 163-foot Casino Royale, unveiled in July, pushed the Christensen shipyard to its limits. “The boat’s owners have thirty-plus years of experience buildin</a>
+							</div>
+							
+							</div>
+							<div class="more_wrap fr">
+								<a href="#" class="">☎call</a>
+								<a href="#" class="">more</a>
+							</div>
+						</li>
+						<li>
+							<div class="new_img fl">
+								<a class="clearfix" href="detail.html">
+									<img src="image/new_img.jpg">
+								</a>
+							</div>
+							<div class="title-wrap fr">
+								<h3 class="new-title">
+									<a href="detail.html">Bond Girl of the Sea</a>
+								</h3>
+								<div class="new-info-wrap clearfix">
+									<a href="detail.html" class="new-content fl">The new 163-foot Casino Royale, unveiled in July, pushed the Christensen shipyard to its limits. “The boat’s owners have thirty-plus years of experience buildin</a>
+							</div>
+							
+							</div>
+							<div class="more_wrap fr">
+								<a href="#" class="">☎call</a>
+								<a href="#" class="">more</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="paging">
+				<a>Prev</a>
+				<span class="active"><i class="active">1</i></span>
+				<span><i>2</i></span>
+				<span><i>3</i></span>
+				<a>Next</a>
+			</div>
+<!-- add -->
+	        <div class="ad_wrap">
+				<a href="#">
+					<img src="image/1495811772IM45tz.jpg" alt="">
+				</a>
+	            <span>
+	                广告   
+	            </span>
+			</div>
+		</div>
+
+		<div class="smallNews">
+			<ul>
+				<li>
+					<a href="#">
+						<img src="image/car.jpg">
+						<p>
+							Ukraine’s Fairmont Grand Hotel Kyiv open
+						</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/car.jpg">
+						<p>
+							Ukraine’s Fairmont Grand Hotel Kyiv open
+						</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/car.jpg">
+						<p>
+							Ukraine’s Fairmont Grand Hotel Kyiv open
+						</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="image/car.jpg">
+						<p>
+							Ukraine’s Fairmont Grand Hotel Kyiv open
+						</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+<!-- 节日转换 -->
+        <div class="special_occasions">
+            <div class="special_occasions_info">
+                <a href="#">Festival</a>
+                <i class="special_occasions_buttom fr"> 
+                </i>
+            </div>
+            <ul class="special_occasions_menu" style="display:none">
+                <li><a href="fenlei.html">Birthday</a></li>
+                <li><a href="fenlei.html">New Year’s Day</a></li>
+                <li><a href="fenlei.html">Australia Day</a></li>
+                <li><a href="fenlei.html">School Holiday</a></li>
+                <li><a href="fenlei.html">Valentine’s Day</a></li>
+                <li><a href="fenlei.html">Easter</a></li>
+                <li><a href="fenlei.html">Mother’s Day</a></li>
+                <li><a href="fenlei.html">Labor Day</a></li>
+                <li><a href="fenlei.html">End of Financial Year</a></li>
+                <li><a href="fenlei.html">School Holiday</a></li>
+                <li><a href="fenlei.html">Ekka</a></li>
+                <li><a href="fenlei.html">Father’s Day</a></li>
+                <li><a href="fenlei.html">Queen’s Birthday</a></li>
+                <li><a href="fenlei.html">Melbourne Cup</a></li>
+                <li><a href="fenlei.html">School Holiday</a></li>
+                <li><a href="fenlei.html">Graduation Ceremony</a></li>
+                <li><a href="fenlei.html">Christmas</a></li>
+            </ul>
+        </div>
+<!-- 电子杂志 -->
+   
+        <div class="ad_wrap read">
+			<a href="#">
+				<img src="image/1495811772IM45tz.jpg" alt="">
+				<span>Click to Read</span>
+			</a>
+           
+		</div>
+		
+<!-- 固定注册 -->
+    	<div class="fixed_login fixed_loginLy">
+    		<div class="Regisration-head">
+				<h2>
+					<span>Never Miss the</span>
+					<em>DEAL</em>
+					&
+					<i>Save</i>
+					up to  
+					<em>70%</em>
+				   Everyday</h2>
+			</div>
+			<form>
+		  		<input type="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" >
+		  		<!-- <input class="PostCode" type="text" value="Post Code" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Post Code';}" > -->
+		  		<!-- <input class="Sign" type="submit" onclick="myFunction()" value="GO >" > -->
+				<div class="Remember-me">
+					<div class="p-container">
+						<span>
+							<em>
+								You will agree to our 
+							</em>
+							<strong style="font-size:12px"><a href="agree.html">Privacy Policy</a></strong>
+							<em>and</em>
+							<strong style="font-size:12px"><a href="agree.html"> Terms & Conditions</a></strong>
+							<span>
+							by clicking Subscribe
+							</span>
+						</span>
+					</div>
+						<!-- <div class ="clear"></div> -->
+					<div class="unsubscribe">
+						<span>You can</span>
+						<a href="#">unsubscribe</a> at any time
+					</div>
+					
+					<div class="submit">
+						<a href="Subscribe.html">Subscribe</a>
+					</div>
+				</div>	 												
+			</form>	
+    	</div>
+
+<!-- APP下载 -->
+	    <div class="download">
+	        <span class="dow">
+	            <i></i>
+	            <em>App Download</em>
+	        </span>
+	    </div>
+<!-- search -->
+		<div class="search_footer">
+			<a href="Search.html">
+				<input type="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'search';}" >
+				<span>
+				<i class="ui-icon-search fl"></i>
+				search</span>
+			</a>	
+		</div>		
+<!-- 媒体链接 -->
+		<div class="footer_menu">
+<!-- JiaThis Button BEGIN -->
+			<div class="jiathis_style_32x32 footer_Tv">
+				<a class="jiathis_button_linkedin">	
+				</a>
+				<a class="jiathis_button_fb"></a>
+				<a class="jiathis_button_googleplus"></a>
+				<a class="jiathis_button_twitter"></a>
+				<a class="jiathis_button_tumblr"></a>
+				<a class="jiathis_button_myshare"></a>
+			</div>
+            <ul>
+				 <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="#">Advertise</a>
+                </li>
+				<li>
+                    <a href="#">Disclaimer</a>
+                </li>
+                <li>
+                    <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policies</a>
+                </li>
+                
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+               
+            </ul>
+            <div class="footer_version">
+                <a href="#">QR code</a>
+                
+                <a href="#">PC version</a>
+            </div>
+			<p class="footer_copyright">©2014-2017 All Right Reserved by findspecial.com.au</p>
+			<!-- <p class="weixin">
+				<img src="image/erweima.png" />
+			</p> -->
+		</div>
+
+<!-- 返回顶部 -->
+        <div class="module-common-feed-back">
+            <div class="feed-back-wrap">
+                <div class="back-top" style="background:#eee;text-align:center;line-height:44px;">
+					<i class="ui-icon-gototop" style="color:red;margin-top:5px;"></i>
+				</div>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-1.8.0.js"></script>
+	<script src="js/frozen.js"></script>
+    <script type="text/javascript" src="js/js1.js"></script>
+    <script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=2130170" charset="utf-8"></script>
+	<script>
+        $(function(){
+            var order_listInfoW = $(".order_listInfo").width();
+            var dtW = $(".order_listInfo dt").width();
+            var ddW = (order_listInfoW-dtW-21);
+            $(".order_listInfo dd").css({"width":ddW});
+			$("#open-sb").click(function(){
+				$(".menu_dialog").toggle();
+				if($(".menu_dialog").is(":hidden")){
+					  $(".menu_second").hide();
+				}else{
+					//  $("body").css({"overflow":"hidden"});     //如果元素为显现,则将其隐藏
+					var bodyH = $(window).height();
+					var menu_dialogH = bodyH -45;
+					$(".menu_dialog").css({"height":menu_dialogH});
+				}
+			})
+			
+        })
+		var jiathis_config={
+			data_track_clickback:true,
+			summary:"",
+			shortUrl:true,
+			hideMore:false
+		}
+		$('.ui-searchbar').tap(function(){
+			$('.ui-searchbar-wrap').addClass('focus');
+			$('.ui-searchbar-input input').focus();
+		});
+    </script>
+</body>
+</html>
+
+

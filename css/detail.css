@@ -1,0 +1,191 @@
+
+.detail_header {
+    background: #fff;
+}
+.detail_header .ui-icon-return {
+    color: #e43;
+}
+.detail_header h1 {
+	color: #000;
+}
+/*section*/    
+.title_wrap{
+    line-height: 24px;
+    padding: 5px 10px;
+    background-color: #fff; 
+    margin-top: 10px;    
+}
+.title_wrap a{
+    color: #2b2b2b;
+    font-size: 18px; 
+	text-align:center;
+	display:block;
+}
+
+.swiper-wrapper li a .slide_img{
+    width: 30%;
+}
+.ui-detail,.ui-mes {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    width: 100%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+	background-color: #fff; 
+}
+.ui-detail ul{
+    overflow: hidden;
+}
+.ui-detail ul li {
+    font-size: 18px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.ui-detail ul li:nth-child(3){border:0;}
+.ui-detail ul li span,.ui-mes ul li span{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    display: block;
+	margin:0 auto;
+    background: url(../image/phone.png) no-repeat;
+    background-size: 100% 100%;
+    
+}
+.ui-detail ul li a{
+    display:block;
+	word-wrap:break-word;
+	font-size: 12px;
+}
+.ui-detail ul li:nth-child(2) span{
+    background: url(../image/map.png) no-repeat;
+    background-size: 100% 100%;
+}
+.ui-detail ul li:nth-child(3) span{
+    background: url(../image/url.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/*intr*/
+.ui-intr-wrap{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+	background-color: #fff; 
+}
+.ui-intr-wrap h3{
+    font-size: 18px;
+}
+.ui-intr-wrap p {
+    font-size: 15px;
+    color: #999;
+}
+.ui-intr-wrap .look_all{
+    font-size: 18px;
+    color: #b0b7ba;
+    text-align: center;
+}
+.ui-intr-wrap .more{
+    font-size: 16px;
+    font-family: arial;
+}
+.icon_fold{
+    font-size: 28px;
+    line-height: 18px;
+    display: inline-block;
+    color: #e43;
+}
+
+.ui-detail ul{
+    overflow: hidden;
+}
+.ui-mes ul li {
+    font-size: 14px;
+    line-height: 2;
+    width: 100%;
+}
+.ui-mes ul li span{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+	float:left;
+	margin-top:5px;
+    background: url(../image/map1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+.ui-mes ul li a{
+	word-wrap: break-word;
+    font-size: 13px;
+}
+.ui-mes ul li:nth-child(2) span{
+    background: url(../image/call.png) no-repeat;
+    background-size: 100% 100%;
+}
+.ui-mes ul li:nth-child(3) span{
+    background: url(../image/web.png) no-repeat;
+    background-size: 100% 100%;
+}
+.ui-mes ul li:nth-child(4) span{
+    background: url(../image/weixin.png) no-repeat;
+    background-size: 100% 100%;
+}
+.ui-mes ul li:nth-child(5) span{
+    background: url(../image/emal.png) no-repeat;
+    background-size: 100% 100%;
+}
+/*recommend*/
+.ui-recommend-wrap {
+    padding: 5px 0px;
+    border-top: 10px solid #eee;
+	background-color: #fff; 
+}
+.ui-recommend-wrap h3 {
+    padding: 5px 0;
+}
+.ui-recommend-wrap .recommend-content,.swiper-container .recommend-content{
+    width: 95%;
+	margin:10px auto 0;
+    overflow:hidden;
+	margin-top:10px;
+}   
+.ui-recommend-wrap .recommend-content li,.swiper-container .recommend-content li{
+    font-size: 14px;
+    line-height: 1.5;
+    width: 45%;
+    margin-right: 15px;
+    margin-bottom:15px;
+    float:left;
+} 
+.ui-recommend-wrap .recommend-content li{
+    width: 100%;
+}
+.swiper-container .recommend-content li{
+    width: 30%;
+    margin-right:5%;
+	
+}
+.swiper-container .recommend-content li:last-child{margin-right:0;}
+.ui-recommend-wrap .recommend-content li:nth-child(even){float:right;margin-right:0;}
+.swiper-container .recommend-content li:nth-child(3n){float:right;margin-right:0;}
+.recommend-content li .content-img,.swiper-container .recommend-content li .content-img{    
+    margin-bottom:5px;
+    width: 100%;
+    display: block;
+}
+.recommend-content li .content-img img{
+    height: 100%;
+    width: 100%;
+}
+.detail_likeLy li span.content-info{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width:100%;
+    display:block;
+    }
+.show_cont{height:155px;overflow:hidden;}
+.ui-recommend-wrap h3.beauty_title{color:#ff2600;font-weight:bold;padding:5px 10px;background:#eee;}

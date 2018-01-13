@@ -1,0 +1,10 @@
+.ui-header{
+	background-color:#fff;
+	border-bottom: 1px solid #d8d8d8;
+}
+.ui-header .ui-icon-return{
+	color: #e43;
+}
+.ui-header h1{
+	color: #333;
+}
